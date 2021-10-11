@@ -1,0 +1,15 @@
+{
+    email veryveryeasily@gmail.com
+}
+
+books.timsyard.com {
+    reverse_proxy booksingus:8083
+}
+
+books.lukeu.dev {
+    reverse_proxy booksingus:8083
+}
+
+dingus.timsyard.com {
+    reverse_proxy app:3000
+}
